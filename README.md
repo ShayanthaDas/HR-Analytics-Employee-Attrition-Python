@@ -1,66 +1,121 @@
-HR Analytics – Employee Attrition Analysis
-Project Overview
+👥 HR Analytics — Employee Attrition Prediction (Python)
+📌 Project Overview
 
-This project analyzes employee attrition data to identify key factors influencing workforce turnover. The analysis was performed using Python in Google Colab.
+This project applies machine learning techniques to HR data to predict whether an employee is likely to leave the company (attrition). The model identifies which factors contribute most to turnover and helps HR teams make proactive retention decisions.
 
-The goal was to generate business insights that help HR teams improve employee retention and workforce planning.
+🎯 Business Problem
 
-Tools & Technologies
+Employee turnover is costly and disruptive. Common challenges include:
+
+Loss of institutional knowledge
+
+Increased hiring and training costs
+
+Lower productivity and morale
+
+This model helps organizations forecast attrition risk, enabling focused interventions to retain key talent.
+
+🧰 Tools & Technologies
 
 Python
 
-Pandas
+Pandas, NumPy
 
-NumPy
+Scikit‑learn
 
-Matplotlib
+Matplotlib / Seaborn
 
-Seaborn
+Jupyter Notebook
 
-Google Colab
+🔄 Methodology
+Data Preprocessing
 
-Key KPIs Analyzed
+Handled missing values
 
-Total Employees
+Encoded categorical variables (Gender, Department, Job Role)
 
-Attrition Rate
-
-Department-wise Attrition
-
-Salary vs Attrition
-
-Overtime Impact
-
-Age Distribution
-
-Key Business Insights
-
-• Employees working overtime show significantly higher attrition.
-• Lower monthly income correlates with increased turnover.
-• Certain departments experience higher exit rates.
-• Younger employees show higher mobility patterns.
-
-Project Workflow
-
-Data Cleaning
+Scaled numerical features when needed
 
 Exploratory Data Analysis
 
-KPI Calculation
+Analyzed feature distributions
 
-Visualization
+Identified patterns linked to attrition
 
-Insight Generation
+Visualized trends (e.g., overtime, ages, job satisfaction)
 
-Business Recommendation
+Model Building
 
-Reduce overtime burden
+Trained classification models such as:
 
-Review compensation strategy
+Logistic Regression
 
-Focus retention programs on high-risk departments
+Random Forest
 
-Author
+Decision Tree (if applicable)
 
-Shayantha Das
-Aspiring Data Analyst
+Model Evaluation
+
+Evaluated performance using:
+
+Accuracy
+
+Precision / Recall
+
+Confusion Matrix
+
+F1 Score
+
+📊 Key Features Used
+
+Age
+
+Gender
+
+Monthly Income
+
+Job Satisfaction
+
+Years at Company
+
+Job Role
+
+Overtime
+
+📊 Key Insights
+
+Employees working overtime are more likely to leave
+
+Lower job satisfaction correlates with higher attrition
+
+Younger employees show greater attrition risk in some segments
+
+Compensation levels and work environment factors influence retention
+
+These insights can guide targeted HR actions.
+
+💡 Business Recommendations
+
+Improve work-life balance to reduce overtime‑related attrition
+
+Bolster engagement and satisfaction programs
+
+Review compensation packages annually
+
+Use attrition predictions to inform retention strategies
+
+📁 Project Structure
+HR-Analytics-Employee-Attrition-Python/
+│── data/
+│── notebooks/
+│── models/
+│── README.md
+🚀 Future Improvements
+
+Hyperparameter tuning for improved performance
+
+Cross‑validation to ensure model stability
+
+Deploy interactive interface (Flask/Streamlit)
+
+Add external data (engagement surveys, performance ratings)
