@@ -1,55 +1,31 @@
-HR-Analytics-Employee-Attrition-Python
+# 📊 HR Analytics: Employee Attrition Prediction
 
-1. 🎯 Business Problem
+## 1. 🎯 Objective
+Analyze employee data to identify trends and factors affecting attrition. Provide insights to improve retention strategies.
 
-Organizations need to monitor employee performance, satisfaction, and retention, but HR data is often underutilized, leading to reactive management instead of proactive decision-making.
+## 2. 🛠 Tools & Technologies
+- Python (Pandas, Matplotlib, Seaborn)  
+- Excel  
 
-2. 🎯 Objective
+## 3. 📊 Key Insights
+- Certain departments and roles have higher attrition rates.  
+- Job satisfaction and workload impact employee retention.  
+- Engagement initiatives correlate with lower attrition.  
 
-Perform HR analytics to evaluate employee attrition, identify key factors impacting retention, and provide actionable insights through dashboards for management decision-making.
+## 4. 🧠 Recommendations
+- Monitor high-risk departments for proactive retention.  
+- Improve job satisfaction and career growth opportunities.  
+- Introduce structured employee engagement programs.  
 
-3. 🛠 Tools & Technologies
+## 5. 📊 Dashboard / Visuals
+<img width="708" height="638" alt="image" src="https://github.com/user-attachments/assets/459cd2c9-5a86-4629-a83e-3c0808f26ba1" />
+<img width="593" height="460" alt="image" src="https://github.com/user-attachments/assets/43d57d32-5b01-423e-aced-4f2ed56cc243" />
+<img width="529" height="406" alt="image" src="https://github.com/user-attachments/assets/ff2830e4-3fea-426a-aa10-f6809bb3ceab" />
+<img width="917" height="688" alt="image" src="https://github.com/user-attachments/assets/4580ac16-743d-485a-a873-31b206ea63fb" />
+<img width="593" height="436" alt="image" src="https://github.com/user-attachments/assets/fce8292b-792d-46fd-b10f-88b10d74fd95" />
 
-Python (Pandas, Matplotlib, Seaborn)
 
-Excel (for dashboards and reports)
-
-Power BI / Tableau (for interactive dashboards)
-
-4. 📖 Approach / Storytelling
-
-Started by cleaning employee datasets to ensure consistency. Conducted exploratory data analysis (EDA) to examine patterns in attrition, department performance, demographics, and engagement levels and created visual dashboards to summarize metrics such as attrition rate, tenure, satisfaction, and department-wise trends. Insights were then interpreted to support HR decisions and proactive interventions.
-
-5. 📊 Key Insights
-
-Attrition is higher in specific departments and job roles
-
-Employee satisfaction and engagement are strongly linked to retention
-
-Certain tenure ranges are more likely to leave the company
-
-Training and career growth opportunities reduce attrition risk
-
-Gender and age factors have minimal impact compared to engagement
-
-6. 🧠 Business Recommendations
-
-Focus on improving engagement and satisfaction in high-risk departments
-
-Implement career development and mentoring programs
-
-Monitor employees in vulnerable tenure ranges proactively
-
-Use dashboards to track HR metrics in real time
-
-Regularly review HR data for continuous improvement
-
-7. 📈 Impact
-
-Dashboards and insights allow HR teams to make proactive decisions, reduce attrition, improve employee engagement, and optimize workforce planning.
-
-8. 📁 Project Structure
-/data           → Employee datasets  
-/notebooks      → Python analysis scripts  
-/dashboard      → Power BI / Tableau dashboards  
-/images         → Charts and visualizations  
+## 📁 Project Structure
+/data → Raw & cleaned datasets  
+/notebooks → Python scripts  
+/images → Visualizations
